@@ -22,7 +22,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSString *animalFarm = @"Mr. Jones, of the Manor Farm, had locked the hen-houses for the night, but was too drunk to remember to shut the pop-holes. With the ring of light from his lantern dancing from side to side, he lurched across the yard, kicked off his boots at the back door, drew himself a last glass of beer from the barrel in the scullery, and made his way up to bed, where Mrs. Jones was already snoring.";
+    NSString *animalFarm = @"Our knowledge about the world is often expressed by generic sentences, yet their meanings are far from clear. This book provides answers to central problems concerning generics: what do they mean? Which factors affect their interpretation? How can one reason with generics? Cohen proposes that the meanings of generics are probability judgments, and shows how this view accounts for many of their puzzling properties, including lawlikeness. Generics are evaluated with respect to alternatives. Cohen argues that alternatives are induced by the kind as well as by the predicated property, and thus provides a uniform account of the varied interpretations of generics. He studies the formal properties of alternatives and provides a compositional account of their derivation by focus and presupposition. Cohen uses his semantics of generics to provide a formal characterization of adequate default reasoning, and proves some desirable results of this formalism.";
     
     osLabel = [[OSSpritzLabel alloc] initWithFrame:CGRectMake(0, 50, 320.0f, 40)];
     osLabel.text = animalFarm;
